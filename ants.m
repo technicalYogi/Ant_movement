@@ -2,6 +2,8 @@ function [antGrids, pherGrids] = ants(n, probAnt, diffusionRate, t)
 % ANTS - Function to return a list of ant and pheromone grids in a
 % simulation of ant movement, where ant cell values are as in Table 10.4.1
 % and pheromone cell values represent the levels of pheromone
+% Ants’ Matlab File 
+
 
 antGrid = initAntGrid(n, probAnt);
 pherGrid = initPherGrid(n);
